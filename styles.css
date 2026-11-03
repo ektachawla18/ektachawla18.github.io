@@ -514,7 +514,7 @@ svg[class^="ic-"]{width:16px;height:16px;flex:none;fill:currentColor;vertical-al
 @media (max-width:620px){.svcgrid{grid-template-columns:1fr}}
 /* about + prose */
 .about-portrait{text-align:center}
-.about-portrait img{width:min(320px,80%);margin:0 auto}
+.about-portrait img{width:min(260px,80%);height:auto;margin:0 auto}
 .sig{font-family:var(--serif);font-size:1.8rem;margin:10px 0 0}
 .sig small{display:block;font-family:var(--sans);font-size:.62rem;letter-spacing:.24em;text-transform:uppercase;color:var(--ink-dim)}
 .about-acts{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
