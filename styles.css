@@ -575,3 +575,8 @@ svg[class^="ic-"]{width:16px;height:16px;flex:none;fill:currentColor;vertical-al
 .ibox p{margin:0;color:var(--ink-soft);font-size:.95rem;line-height:1.55}
 @media (max-width:980px){.iboxes{grid-template-columns:1fr 1fr}}
 @media (max-width:600px){.iboxes{grid-template-columns:1fr;gap:14px}.ibox{padding:22px 20px}}
+
+/* v9: MahaRERA line small & subtle (Ekta: "write this in small") */
+.about-copy p.rera-badge,p.rera-badge,p.rera-line,.contact-card p.rera-line{display:block;border:0;background:none;padding:0;box-shadow:none;font-size:12px!important;line-height:1.5!important;font-weight:400;letter-spacing:.03em;color:var(--ink-dim)!important;margin:12px 0 0;white-space:normal;max-width:100%}
+.rera-badge b{font-weight:400}
+.rera-foot{font-size:12px!important;letter-spacing:.04em!important;text-transform:none!important;border:0;background:none;padding:0}
