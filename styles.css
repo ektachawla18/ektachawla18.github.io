@@ -602,3 +602,7 @@ svg[class^="ic-"]{width:16px;height:16px;flex:none;fill:currentColor;vertical-al
 .devstrip{background:#F5EFE6}
 .devstrip p{color:#86715f}
 .marquee li{color:#3B2A1E}
+
+/* v9: about v2 */
+.founder-sub{display:inline-block;font-size:.95rem;letter-spacing:.06em;text-transform:none;color:var(--gold-text);font-weight:600}
+.about-copy p.about-close{font-family:var(--serif);font-style:italic;font-size:1.35rem;line-height:1.35;color:#A9824A;margin:18px 0 0}
