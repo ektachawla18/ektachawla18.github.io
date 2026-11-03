@@ -580,3 +580,25 @@ svg[class^="ic-"]{width:16px;height:16px;flex:none;fill:currentColor;vertical-al
 .about-copy p.rera-badge,p.rera-badge,p.rera-line,.contact-card p.rera-line{display:block;border:0;background:none;padding:0;box-shadow:none;font-size:12px!important;line-height:1.5!important;font-weight:400;letter-spacing:.03em;color:var(--ink-dim)!important;margin:12px 0 0;white-space:normal;max-width:100%}
 .rera-badge b{font-weight:400}
 .rera-foot{font-size:12px!important;letter-spacing:.04em!important;text-transform:none!important;border:0;background:none;padding:0}
+
+/* v9: light header + footer + devstrip (Ekta: logo's black part must be visible) */
+.site-header{background:#FFFFFF;-webkit-backdrop-filter:none;backdrop-filter:none;border-bottom:1px solid #C9A24B;box-shadow:0 4px 18px -12px rgba(59,42,30,.28)}
+.site-header .brand img,.footer .brand img{filter:none}
+.site-header .wordmark b,.footer .wordmark b{color:#1A1A1A}
+.site-header .wordmark b .g,.footer .wordmark b .g{background:none;-webkit-background-clip:border-box;background-clip:border-box;color:#B8892B;-webkit-text-fill-color:#B8892B}
+.site-header .wordmark small,.footer .wordmark small{color:#86715f}
+.menu-btn{border:0;background:transparent;box-shadow:none}
+.menu-btn span{background:#3B2A1E;height:2px}
+.menu a:not(.btn){color:#3B2A1E}
+.menu a:not(.btn):hover,.menu a[aria-current="page"]{color:#9A7442}
+.ig-link{color:#3B2A1E}
+@media (max-width:1359px){.menu{background:#FFFFFF!important;box-shadow:0 30px 50px -20px rgba(59,42,30,.3)}.menu a:not(.btn){border-bottom:1px solid rgba(59,42,30,.1)}}
+.footer{background:#FBF8F3;border-top:1px solid #C9A24B;color:#5f4a3a}
+.footer a{color:#3B2A1E}.footer a:hover{color:#9A7442}
+.footer .fh{color:#9A7442}
+.footer .small{color:#86715f}
+.footer .ftag{color:#9A7442}
+.footer .rera-foot{color:#86715f!important}
+.devstrip{background:#F5EFE6}
+.devstrip p{color:#86715f}
+.marquee li{color:#3B2A1E}
