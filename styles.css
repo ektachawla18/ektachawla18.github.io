@@ -796,3 +796,7 @@ body.home{background:linear-gradient(180deg,#F7EFD9,#EFE0BC)}
 .au-founder-head{padding-top:0}
 .au-founder-head .wrap{text-align:center}
 .au-founder-head .au-h2{margin-bottom:.25em}
+
+/* hero video loop */
+.hero-vid{animation:none !important;transform:none !important;object-fit:cover;object-position:50% 62%}
+@media (prefers-reduced-motion:reduce){.hero-vid{display:none}}
