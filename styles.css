@@ -800,3 +800,4 @@ body.home{background:linear-gradient(180deg,#F7EFD9,#EFE0BC)}
 /* hero video loop */
 .hero-vid{animation:none !important;transform:none !important;object-fit:cover;object-position:50% 62%}
 @media (prefers-reduced-motion:reduce){.hero-vid{display:none}}
+@media (max-width:640px){.hero-vid{object-position:76% 62%}}
