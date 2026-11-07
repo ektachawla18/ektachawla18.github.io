@@ -809,3 +809,7 @@ body.home{background:linear-gradient(180deg,#F7EFD9,#EFE0BC)}
 @media (max-width:600px){.hero-lux .hero-ctas{display:grid;grid-template-columns:1fr 1fr;gap:8px;width:100%}.hero-lux .hero-ctas .btn:first-child{grid-column:1/-1}.hero-lux .hero-ctas .btn{min-height:42px;height:42px;padding:0 8px;font-size:.66rem;letter-spacing:.08em}.hero-lux .hero-copy{padding-bottom:24px}.hero-lux .hero-count{margin:10px 0 0;font-size:.8rem}.hero-lux .hero-divider{margin:10px auto}}
 
 @media (max-width:600px){.hero-lux .hero-copy{padding-bottom:70px}}
+
+@media (max-width:600px){.hero-lux .hero-copy{padding-bottom:28px}}
+
+@media (max-width:600px){.hero-lux .hero-copy{padding-bottom:44px}}

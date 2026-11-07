@@ -89,14 +89,15 @@ function openWA(text) {
   });
   function ok(c) {
     var kind = c.getAttribute("data-kind");
-    if (st.type === "buy") { if (kind === "rent") return false; } else if (st.type !== "all" && kind !== st.type) return false;
+    if (st.bhk === "comm") { if (kind !== "comm") return false; }
+    else if (st.type === "buy") { if (kind === "rent") return false; } else if (st.type !== "all" && kind !== st.type) return false;
     if (st.loc && c.getAttribute("data-zone") !== st.loc && c.getAttribute("data-loc") !== st.loc) return false;
-    if (st.bhk) {
+    if (st.bhk && st.bhk !== "comm") {
       var b = (c.getAttribute("data-bhk") || "").split(" ");
       if (st.bhk === "5" ? !b.some(function (x) { return +x >= 5; }) : b.indexOf(st.bhk) < 0) return false;
     }
     if (st.dev && (" " + (c.getAttribute("data-dev") || "") + " ").indexOf(" " + st.dev + " ") < 0) return false;
-    if (st.budget) {
+    if (st.budget && st.bhk !== "comm") {
       var parts = st.budget.split(":"), r = parts[1].split("-"), lo = +r[0], hi = r[1] === "" ? 1e9 : +r[1];
       if (parts[0] === "r" ? kind !== "rent" : kind === "rent") return false;
       var pm = c.getAttribute("data-pmin");
