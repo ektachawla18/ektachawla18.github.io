@@ -803,3 +803,5 @@ body.home{background:linear-gradient(180deg,#F7EFD9,#EFE0BC)}
 @media (max-width:640px){.hero-vid{object-position:76% 62%}}
 
 .hero-lux .hero-count{margin:22px 0 0;font-size:.95rem;color:#555;letter-spacing:.02em}.hero-lux .hero-count b{color:#B8892B;font-weight:700}
+
+.dgallery{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:12px 0 0}.dgallery img{width:100%;height:auto;border-radius:10px;display:block;object-fit:cover;aspect-ratio:3/4}@media(min-width:900px){.dgallery{grid-template-columns:repeat(3,1fr)}}
