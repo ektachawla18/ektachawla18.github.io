@@ -801,3 +801,5 @@ body.home{background:linear-gradient(180deg,#F7EFD9,#EFE0BC)}
 .hero-vid{animation:none !important;transform:none !important;object-fit:cover;object-position:50% 62%}
 @media (prefers-reduced-motion:reduce){.hero-vid{display:none}}
 @media (max-width:640px){.hero-vid{object-position:76% 62%}}
+
+.hero-lux .hero-count{margin:22px 0 0;font-size:.95rem;color:#555;letter-spacing:.02em}.hero-lux .hero-count b{color:#B8892B;font-weight:700}
