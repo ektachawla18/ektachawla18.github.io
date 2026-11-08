@@ -820,3 +820,8 @@ body.home{background:linear-gradient(180deg,#F7EFD9,#EFE0BC)}
 
 /* hero: heading block up, video visible between heading and buttons (Ekta, Nov 8) */
 @media (max-width:600px){.hero-lux .hero-divider{margin-bottom:190px}}
+
+/* hero: clearer video (Ekta Nov 8) */
+.home .hero-veil{background:linear-gradient(0deg,rgba(239,224,188,.9) 0%,rgba(233,213,160,.55) 18%,rgba(222,193,128,.15) 36%,rgba(212,175,106,0) 55%)!important}
+.hero-vid{filter:contrast(1.12) saturate(1.2) brightness(.95)}
+.home .hero-lux .hero-count{margin:12px 0 0}
