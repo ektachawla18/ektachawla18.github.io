@@ -835,3 +835,5 @@ body.home{background:linear-gradient(180deg,#F7EFD9,#EFE0BC)}
 @media (max-width:600px){.hero-lux .hero-ctas .btn:first-child{min-height:54px;height:54px;font-size:.85rem;letter-spacing:.1em}}
 
 @media (max-width:600px){.hero-lux .hero-ctas .btn:not(:first-child){font-size:.6rem;letter-spacing:.05em;padding:0 4px}}
+
+@media (max-width:600px){.hero-lux .hero-divider{margin-bottom:210px}}
