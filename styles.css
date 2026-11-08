@@ -836,4 +836,13 @@ body.home{background:linear-gradient(180deg,#F7EFD9,#EFE0BC)}
 
 @media (max-width:600px){.hero-lux .hero-ctas .btn:not(:first-child){font-size:.6rem;letter-spacing:.05em;padding:0 4px}}
 
-@media (max-width:600px){.hero-lux .hero-divider{margin-bottom:210px}}
+
+
+/* hero (mobile): heading group pinned in the sky, buttons stay at the bottom */
+@media (max-width:600px){
+.hero-lux .hero-copy{position:static}
+.hero-lux .hero-eyebrow,.hero-lux #hero-h,.hero-lux .hero-divider{position:absolute;left:0;right:0;z-index:2;margin:0 auto;text-align:center}
+.hero-lux .hero-eyebrow{top:30%}
+.hero-lux #hero-h{top:calc(30% + 30px)}
+.hero-lux .hero-divider{top:calc(30% + 84px);width:60%;left:20%;right:auto;display:flex}
+}
