@@ -819,9 +819,15 @@ body.home{background:linear-gradient(180deg,#F7EFD9,#EFE0BC)}
 @media (max-width:600px){.hero-lux .hero-copy{padding-bottom:84px}}
 
 /* hero: heading block up, video visible between heading and buttons (Ekta, Nov 8) */
-@media (max-width:600px){.hero-lux .hero-divider{margin-bottom:190px}.hero-lux .hero-copy{padding-bottom:70px}}
+@media (max-width:600px){}
 
 /* hero: clearer video (Ekta Nov 8) */
 .home .hero-veil{background:linear-gradient(0deg,rgba(239,224,188,.9) 0%,rgba(233,213,160,.55) 18%,rgba(222,193,128,.15) 36%,rgba(212,175,106,0) 55%)!important}
 .hero-vid{filter:contrast(1.12) saturate(1.2) brightness(.95)}
 .home .hero-lux .hero-count{margin:12px 0 0}
+
+/* hero: Ekta's circled layout (stacked buttons + count line), a little lower */
+@media (max-width:600px){.hero-lux .hero-ctas{display:grid!important;grid-template-columns:1fr 1fr;gap:8px;width:100%}
+.hero-lux .hero-ctas .btn:first-child{grid-column:1/-1}
+.hero-lux .hero-ctas .btn{min-height:44px;height:44px;padding:0 8px;font-size:.66rem;letter-spacing:.08em;white-space:nowrap}
+.hero-lux .hero-copy{padding-bottom:105px}}
