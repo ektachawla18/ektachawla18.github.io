@@ -813,3 +813,7 @@ body.home{background:linear-gradient(180deg,#F7EFD9,#EFE0BC)}
 @media (max-width:600px){.hero-lux .hero-copy{padding-bottom:28px}}
 
 @media (max-width:600px){.hero-lux .hero-copy{padding-bottom:44px}}
+
+/* hero final (Ekta 'this' layout): eyebrow, heading, divider, one row of buttons at the bottom; video visible above */
+@media (max-width:600px){.hero-lux .hero-ctas{display:flex;flex-wrap:nowrap;gap:6px;width:100%}.hero-lux .hero-ctas .btn{flex:1 1 0;min-width:0;height:auto;min-height:44px;padding:8px 6px;font-size:.6rem;line-height:1.2;letter-spacing:.06em;white-space:normal}.hero-lux .hero-copy{padding-bottom:28px}}
+@media (max-width:600px){.hero-lux .hero-copy{padding-bottom:84px}}
