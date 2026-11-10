@@ -846,3 +846,12 @@ body.home{background:linear-gradient(180deg,#F7EFD9,#EFE0BC)}
 .hero-lux #hero-h{top:calc(30% + 30px)}
 .hero-lux .hero-divider{top:calc(30% + 84px);width:60%;left:20%;right:auto;display:flex}
 }
+
+/* most asked questions (2026-11-10) */
+.faq-list{display:grid;gap:10px}
+.faq-item{border:1px solid #D4AF6A;border-radius:10px;padding:12px 16px;background:#fff}
+.faq-item summary{cursor:pointer;font-weight:600;list-style:none}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item summary::after{content:"+";float:right;color:#B08D3C}
+.faq-item[open] summary::after{content:"–"}
+.faq-item p{margin:10px 0 0;color:#444}
